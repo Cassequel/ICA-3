@@ -16,6 +16,10 @@ body{
 #alternate-name{
     font-style: italic;
 }
+#nav{
+    text-align: center;
+    text-decoration: none;
+}
 
 h1, h2{
     text-align: center;
