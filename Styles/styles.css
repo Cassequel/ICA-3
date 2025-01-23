@@ -59,8 +59,10 @@ section#title{
     height:auto;
     margin-right:auto;
     margin-left:auto;
-
+    border: solid rgb(255, 255, 255) 10px;
     box-sizing: border-box;
+    box-shadow: 10px 5px 5px rgb(229, 77, 105);
+    border-radius: 10%;
 }
 
 section#facts{
@@ -83,3 +85,45 @@ section#quotes{
     padding:5px;
     box-sizing: border-box;
 }
+
+section#table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+  
+#music_container {
+    display: flex; /* This ensures the image and sections are side by side */
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 20px; /* Optional: Adds space between the image and sections */
+  }
+  
+  #left_music, #right_music {
+    width: 45%; /* Ensure both sections take up roughly half the space */
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: larger;
+  }
+  
+  #left_music {
+    text-align: left;
+  }
+  
+  #right_music {
+    text-align: right;
+  }
+  
+  #left_music br, #right_music br {
+    margin-bottom: 10px; /* Adds space between list items */
+  }
+  img {
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
